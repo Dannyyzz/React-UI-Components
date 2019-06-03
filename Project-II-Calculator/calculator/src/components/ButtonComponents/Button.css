@@ -1,0 +1,26 @@
+.buttons-container {
+    display: flex;
+  }
+  
+   .buttons-grid-left {
+    flex-grow: 1;
+    display: inline-grid;
+    grid-auto-flow: row;
+  }
+  
+   .number-button {
+    width: calc(100% / 3);
+  }
+  
+   .buttons-grid-right {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+  }
+  
+   .buttons-grid-right button {
+    background-color: #A0001E;
+    color: white;
+    font-size: 45px;
+  }

@@ -19,7 +19,7 @@ import ActionButton from './ActionButton.js';
       </div>
 
       <div className="buttons-grid-right">
-        <ActionButton buttonStyle="btn-wide" values={['÷','⨉', '-', '+', '=']} />
+        <ActionButton buttonStyle="btn-wide" values={['÷','x', '-', '+', '=']} />
       </div>
 
     </div>
